@@ -1,0 +1,11 @@
+<resources>
+	<string name="app_name">Digital Turbine</string>
+	<string name="app_desc">Coding Challenge</string>
+	<string name="company">Digital Turbine</string>
+	<string name="programmer">Ahmed Shakil</string>
+	<string name="downloads">(downloads)</string>
+	<string name="category_x">Category: %s</string>
+	<string name="x_ratings">%s ratings</string>
+	<string name="x_downloads">%s downloads</string>
+	<string name="min_os_ver_x">Min OS ver: %s</string>
+</resources>

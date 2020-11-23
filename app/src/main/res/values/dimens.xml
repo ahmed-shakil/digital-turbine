@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="h1">22sp</dimen>
+	<dimen name="h2">20sp</dimen>
+	<dimen name="text">18sp</dimen>
+
+	<dimen name="check_icon">20dp</dimen>
+	<dimen name="check_margin">2dp</dimen>
+	<dimen name="icon_size">36dp</dimen>
+	<dimen name="icon_pad">6dp</dimen>
+	<dimen name="icon_gap">14dp</dimen>
+	<dimen name="icon_corners">5pt</dimen>
+	<dimen name="grid_pad">4dp</dimen>
+	<dimen name="title_gap">8dp</dimen>
+	<dimen name="gap">3dp</dimen>
+	<dimen name="pad">7dp</dimen>
+	<dimen name="margin">16dp</dimen>
+</resources>

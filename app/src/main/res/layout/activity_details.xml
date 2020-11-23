@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/h1"
+            android:textStyle="bold"
+            android:maxLines="2"
+            tools:text="Business Name" />
+
+        <ImageView
+            android:id="@+id/thumb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize=".5"
+        android:rating="5"
+        android:paddingTop="@dimen/pad"
+        style="?android:attr/ratingBarStyleSmall"/>
+
+    <TextView
+        android:id="@+id/reviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/link"
+        android:paddingBottom="@dimen/gap"
+        tools:text="100 reviews"/>
+
+    <TextView
+        android:id="@+id/downloads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/gap"
+        tools:text="(213) 555 1212" />
+
+    <TextView
+        android:id="@+id/category"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin"
+        tools:text="Category: Cool stuff" />
+
+    <TextView
+        android:id="@+id/minOsVer"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/gap"
+        tools:text="Min OS Version: Android 10+" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="100 Acme Center Drive,\nLoony Toons CA 90210" />
+
+    <Button
+        android:id="@+id/action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginBottom="@dimen/gap"
+        android:layout_gravity="center_vertical|end"
+        android:padding="@dimen/margin"
+        android:paddingStart="@dimen/margin"
+        android:paddingEnd="@dimen/margin"
+        tools:text="Install Now"/>
+
+</LinearLayout>
